@@ -1,0 +1,118 @@
+/* body {
+    width: 100vm;
+    height: 10vh;
+    background-color: aqua;
+} */
+* {
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: Rubik;
+    src: url(../fonts/Rubik-Regular.ttf);
+}
+.container{
+    width: 1180px;
+    height: 100vh;
+    margin: 0 auto;
+}
+.header{
+    height: 40px;
+    margin-top: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__logo {
+    display: flex;
+    align-items: center;
+}
+
+.header__logo-p {
+color: var(--Gray-1, #333);
+font-family: Rubik;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal; 
+}
+.header__search {
+width: 402px;
+height: 25px;
+border: none;
+border-bottom: 1px #333 solid;
+margin-right: 32;
+}
+
+.header__search::placeholder {
+    color: var(--Gray-3, #828282);
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+}
+.header__search::focus{
+outline: none;
+color: #333;
+font-family: Rubik;
+font-size: 16px;
+font-weight: 500;
+}
+
+.header__search-btn {
+    background: none;
+    border: none;
+    color: #e5261e;
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.header__login {
+width: 113px;
+height: 38px;
+border: none;
+border-radius: 4px;
+background-color:#e5261e;
+color: #FFF;
+text-align: center;
+font-family: Rubik;
+font-size: 16px;
+font-weight: 500;
+}
+.header__login:hover {
+    background: #cc221b;
+}
+
+.tabs {
+display: flex; 
+background: #FFF;
+margin-left: auto;
+margin-right: auto;
+width: 6em;
+line-height: 44px;
+font-family: Rubik;
+}
+
+.films{
+text-decoration: 0;
+color: var(--red, #E5261E);
+text-align: right;
+font-family: Rubik;
+font-size: 28px;
+font-style: normal;
+font-weight: 500;
+line-height: normal; 
+}
+
+.telec {
+text-decoration: 0;
+color: var(--red, #E5261E);
+text-align: right;
+font-family: Rubik;
+font-size: 28px;
+font-style: normal;
+font-weight: 500;
+line-height: normal; 
+}
